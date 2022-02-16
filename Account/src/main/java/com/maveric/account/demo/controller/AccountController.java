@@ -18,7 +18,7 @@ public class AccountController
     @Autowired
     AccountService accountService;
     @PostMapping("/create")
-    public Integer accountCreation(@Valid @RequestBody Integer customerId)
+    public Integer accountCreation(@RequestBody Integer customerId)
     {
         Account account=new Account();
         account.setCustomerId(customerId);
