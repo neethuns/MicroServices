@@ -19,8 +19,8 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.AUTO)
 
     private int accountId;
-   // private String accountNo;
-   @NotBlank(message="customerID cannot be null")
+  
+  
     private int customerId;
 
 }
